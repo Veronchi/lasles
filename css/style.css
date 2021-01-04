@@ -1,0 +1,170 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Rubik", "Roboto", "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #4f5665;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin-bottom: 90px;
+}
+
+.logo__img {
+  width: 150px;
+  height: 37px;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+}
+
+.menu__item + .menu__item {
+  padding-left: 40px;
+}
+
+.menu__item .menu-link:hover {
+  border-bottom: 1px solid #f53855;
+}
+
+.header__panel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 235px;
+  min-height: 100%;
+}
+
+.panel__login {
+  color: #0b132a;
+  font-weight: 500;
+}
+
+.panel__registration {
+  width: 150px;
+  height: 45px;
+  font-weight: 500;
+  line-height: 41px;
+  color: #f53855;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.banner {
+  margin-bottom: 105px;
+}
+
+.banner__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__left {
+  margin-top: 30px;
+}
+
+.banner__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+
+.banner__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+  margin-bottom: 50px;
+}
+
+.banner__link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  background-color: #F53838;
+  border-radius: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 78px;
+  padding-right: 78px;
+  box-shadow: 0px 25px 54px -5px rgba(245, 56, 56, 0.35);
+}
+
+.info {
+  margin-bottom: 55px;
+}
+
+.info__inner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  border-radius: 10px;
+  box-shadow: 0px 42px 80px -90px #0D1025;
+}
+
+.info__inner .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 125px;
+}
+
+.info__inner .item + .item {
+  border-left: 2px solid #EEEFF2;
+}
+
+.describe {
+  margin-left: 37px;
+}
