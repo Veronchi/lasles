@@ -14,6 +14,7 @@ a {
 }
 
 ul,
+ol,
 li {
   margin: 0;
   padding: 0;
@@ -141,7 +142,7 @@ body {
 }
 
 .info {
-  margin-bottom: 55px;
+  margin-bottom: 95px;
 }
 
 .info__inner {
@@ -167,4 +168,167 @@ body {
 
 .describe {
   margin-left: 37px;
+}
+
+.features {
+  margin-bottom: 130px;
+}
+
+.features__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__describe {
+  padding-top: 55px;
+  padding-left: 170px;
+  padding-right: 50px;
+}
+
+.features__describe-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+  margin-bottom: 20px;
+}
+
+.features__describe-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+  margin-bottom: 20px;
+}
+
+.features__describe-item {
+  position: relative;
+  padding-left: 35px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.features__describe-item::before {
+  content: " ";
+  background-image: url("../img/check.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.features__describe-item + .features__describe-item {
+  margin-top: 15px;
+}
+
+.content {
+  background-color: #F8F8F8;
+}
+
+.plans {
+  margin-bottom: 150px;
+  padding-top: 80px;
+}
+
+.plans__header {
+  width: 555px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.plans__title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+  margin-bottom: 20px;
+}
+
+.plans__text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.plans__offers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plans__offers-item {
+  position: relative;
+  text-align: center;
+  width: 330px;
+  height: 760px;
+  border: 2px solid #DDDDDD;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding-top: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.offers-item-img {
+  width: 145px;
+  height: 165px;
+}
+
+.offers-item__featurelist {
+  text-align: left;
+}
+
+.offers-item__footer {
+  position: absolute;
+  margin-bottom: 50px;
+  bottom: 0;
+}
+
+.offers-item__title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0B132A;
+}
+
+.featurelist-item {
+  padding-left: 45px;
+  position: relative;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+.featurelist-item::before {
+  content: " ";
+  background-image: url("../img/check-box.svg");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+}
+
+.cost {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0B132A;
+  margin-bottom: 20px;
+}
+
+.plans__offers-link {
+  display: block;
+  border: 2px solid #F53838;
+  border-radius: 50px;
+  padding: 13px 63px;
+  color: #F53838;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
 }
